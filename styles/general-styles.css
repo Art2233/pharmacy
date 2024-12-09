@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form .header {
+    height: 4%;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+}
+
+.container-form .body {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.container-form .header .head-btn, a[class="clickable-button"] {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #fff;
+}
+
+.container-form .header .head-btn:hover, a[class*="clickable-button"]:hover {
+    background-color: #dadada;
+}
+
+button, a[class="clickable-button"] {
+    cursor: pointer;
+}
+
+a, button {
+    outline: none;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.product {
+    padding: 20px;
+    border: 1px solid #dadada;
+    text-align: center;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form-view {
+    width: 400px;
+    height: 600px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+
+    margin-left: 50%;
+}

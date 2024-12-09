@@ -1,0 +1,21 @@
+.btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form-view {
+    width: 400px;
+    height: 600px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+
+    margin-left: 50%;
+}
